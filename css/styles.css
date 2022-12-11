@@ -332,12 +332,6 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--main-text-color);
 }
-.portfolio-text {
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: var(--secondary-background-color);
-}
 /* --Footer-- */
 .footer {
 	background-color: var(--secondary-text-color);
