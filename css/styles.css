@@ -20,15 +20,15 @@
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
+.link {
+	font-family: inherit;
+	text-decoration: none;
+}
 ul {
 	list-style: none;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-left: 0;
-}
-.link {
-	font-family: inherit;
-	text-decoration: none;
 }
 h1,
 h2,
@@ -56,7 +56,8 @@ body {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-/* --Header-- */
+
+/* ----------Header---------- */
 .page-header {
 	display: flex;
 	align-items: center;
@@ -124,8 +125,10 @@ body {
 .header-mail:focus {
 	color: var(--logo-color);
 }
-/* --Main Page-- */
-/* --Hero-- */
+
+/* ----------Main Page---------- */
+
+/* ----------Hero---------- */
 .hero {
 	padding-top: 192px;
 	padding-bottom: 192px;
@@ -138,7 +141,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 59px;
-	
+
 	font-weight: 500;
 	font-size: 56px;
 	line-height: 1.07;
@@ -168,7 +171,8 @@ body {
 .hero-button:active {
 	background-color: #404bbf;
 }
-/* --Qualities-- */
+
+/* ----------Qualities---------- */
 .qualities {
 	padding-top: 120px;
 	padding-bottom: 120px;
@@ -180,6 +184,9 @@ body {
 .qualities-item {
 	flex-basis: calc(100% / 4 - 24px);
 	margin-right: 24px;
+}
+.qualities-item:last-child {
+	margin-right: 0;
 }
 .qualities-title {
 	margin-bottom: 8px;
@@ -196,7 +203,8 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--main-text-color);
 }
-/* Work */
+
+/* ----------Work---------- */
 .work {
 	padding-bottom: 120px;
 	text-align: center;
@@ -215,7 +223,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
-/* --Team-- */
+
+/* ----------Team---------- */
 .team {
 	padding-top: 120px;
 	padding-bottom: 120px;
@@ -261,8 +270,10 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--main-text-color);
 }
-/* --Portfolio Page-- */
-/* --Filter-- */
+
+/* ----------Portfolio Page---------- */
+
+/* ----------Filter---------- */
 .portfolio {
 	padding-top: 96px;
 	padding-bottom: 120px;
@@ -272,7 +283,7 @@ body {
 
 	display: flex;
 	justify-content: center;
-	}
+}
 .filter-item:not(:last-child) {
 	margin-right: 24px;
 }
@@ -295,7 +306,8 @@ body {
 	color: var(--accent-text-color);
 	background: var(--logo-color);
 }
-/* --Portfolio-- */
+
+/* ----------Portfolio---------- */
 .portfolio-list {
 	display: flex;
 	padding: 0;
@@ -314,13 +326,13 @@ body {
 }
 .portfolio-card {
 	display: block;
-	}
+}
 .portfolio-card-text {
 	padding-left: 16px;
 	padding-top: 32px;
 	padding-bottom: 32px;
-	border: 0.5px solid #F4F4FD;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+	border: 0.5px solid #f4f4fd;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .portfolio-title {
 	margin-bottom: 8px;
@@ -337,7 +349,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 	letter-spacing: 0.02em;
 	color: var(--main-text-color);
 }
-/* --Footer-- */
+
+/* ---------Footer--------- */
 .footer {
 	background-color: var(--secondary-text-color);
 	padding-top: 100px;
